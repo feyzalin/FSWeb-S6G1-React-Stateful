@@ -12,8 +12,13 @@ const container = document.getElementById("root");
 const root = createRoot(container);
 root.render(
   <>
+    <Input />
     <Sayac />
-    {/* <RuhHalleri />
+    <Dondurucu />
+
+    {/* 
+  <Sayac />
+  <RuhHalleri />
   <Dondurucu />
   <Input />
   <Kareler />
